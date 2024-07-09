@@ -2,13 +2,20 @@
   "name": "tiny-fetch",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "build": "tsc",
-    "test": "vitest run"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CGOAT24/tiny-fetch.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "Chad Gauthier",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
   "devDependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.19.2",

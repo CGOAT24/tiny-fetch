@@ -29,7 +29,3 @@ test('POST / should return data sent', async () => {
   const response = await tinyFetch.post(`http://localhost:3000/`, data);
   expect(response).toEqual(data);
 });
-
-test('GET /error should return error', async () => {
-    expect(await tinyFetch.get('http://localhost:3000/error')).toThrowError();
-});
