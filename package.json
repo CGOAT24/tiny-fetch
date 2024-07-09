@@ -1,13 +1,10 @@
 {
-  "name": "tiny-fetch",
+  "name": "@cgoat24/tiny-fetch",
   "version": "1.0.0",
   "description": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CGOAT24/tiny-fetch.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "Chad Gauthier",
